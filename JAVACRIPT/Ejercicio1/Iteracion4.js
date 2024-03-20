@@ -30,6 +30,10 @@ rickAndMortyCharacters.push("Morty", "Summer");
 for (let o = 3; o < rickAndMortyCharacters.length; o++) {
   console.log("1.4 Los integrantes añadidos son:", rickAndMortyCharacters[o]);
 }
+console.log(
+  "1.4 El ultimo personaje del array es :",
+  rickAndMortyCharacters[4]
+);
 
 // 1.5 Elimina el último elemento del array y muestra el primero y el último por consola.
 // const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
@@ -44,3 +48,4 @@ rickAndMortyCharacters.splice(1, 1);
 for (i = 0; i < rickAndMortyCharacters.length; i++) {
   console.log("1.6 Los datos del array son:", rickAndMortyCharacters[i]);
 }
+console.log(rickAndMortyCharacters);
