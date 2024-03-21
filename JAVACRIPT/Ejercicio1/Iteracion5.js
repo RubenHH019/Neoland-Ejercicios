@@ -6,7 +6,7 @@ const number3 = 2;
 if (number1 === 10) {
   console.log("number1 es estrictamente igual a 10");
 }
-if ((a = number2 / number1 === 2)) {
+if ((a = number2 / number1 && 2)) {
   console.log("number2 dividido entre number1 es igual a 2");
 }
 
