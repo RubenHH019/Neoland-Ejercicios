@@ -47,4 +47,3 @@ car1.finalPrice = globalBasePrice + car1.basePrice;
 car2.finalPrice = globalBasePrice + car2.basePrice;
 console.log("El nuevo precio del coche 1:", car1.finalPrice);
 console.log("El nuevo precio del coche 2:", car2.finalPrice);
-console.log(typeof [globalBasePrice]);

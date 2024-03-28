@@ -5,6 +5,7 @@ function sum(numberOne, numberTwo) {
   } else {
     return numberTwo;
   }
+  //! CON TERNARIO return numberOne > numberTwo ? numberOne : numberTwo;
 }
 
 prueba = sum(300, 60);
