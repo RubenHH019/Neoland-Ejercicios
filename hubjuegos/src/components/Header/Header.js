@@ -1,5 +1,7 @@
-// --- Header.js --------> src/components/Header
 import "./Header.css";
+import { getUser } from "../../global/state/globalState";
+import { changeColorRGB } from "../../utils";
+import { initControler } from "../../utils/route";
 
 //!-------------------------------------------------------------------
 //? ------------------1) TEMPLATE ------------------------------------
@@ -32,7 +34,36 @@ const template = () => `
 //!-----------------------------------------------------------------------------------
 //? ----------------------- 2 ) Añadir los eventos con sus escuchadores---------------
 //!-----------------------------------------------------------------------------------
-const addListeners = () => {};
+const addListeners = () => {
+  //! ---------------->COLOR CHANGE RANDOM------ evento click del boton de cambio de color
+  const changeColor = document.getElementById("changeColor");
+  changeColor.addEventListener("click", (e) => {
+    /** en este caso lo que hacemos el generar un color y cambiar el stylo del background del body */
+    const color = changeColorRGB();
+    document.body.style.background = color;
+  });
+
+  //! ----------------> DASHBOARD ------------- evento click del boton que nos lleva a los juegos
+  const buttonDashboard = document.getElementById("buttonDashboard");
+  buttonDashboard.addEventListener("click", (e) => {
+    // llamamos al initController con el dashboard para que pinte la pagina del dashboard
+    initControler("Dashboard");
+  });
+
+  //! ----------------> LOGOUT ----------------
+  const buttonLogout = document.getElementById("buttonLogout");
+  buttonLogout.addEventListener("click", (e) => {
+    const userState = getUser().name;
+    const currentUser = localStorage.getItem(userState);
+    const parseCurrentUser = JSON.parse(currentUser);
+    const updateUser = { ...parseCurrentUser, token: false };
+    const stringUpdateUser = JSON.stringify(updateUser);
+    localStorage.removeItem(userState);
+    sessionStorage.removeItem("currentUser");
+    localStorage.setItem(userState, stringUpdateUser);
+    initControler("Login");
+  });
+};
 //!-----------------------------------------------------------------------------------
 //? ------------------------------ 3) La funcion que se exporta y que pinta-----------
 //!-----------------------------------------------------------------------------------
