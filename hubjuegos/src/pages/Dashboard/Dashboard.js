@@ -18,7 +18,7 @@ const template = () => `
             src="https://cdn-icons-png.freepik.com/512/6168/6168842.png"
             alt=" go to tic tac toe"
           />
-          <h2>Memory Game</h2>
+          <h2>MEMORY GAME</h2>
         </figure>
       </li>
       
