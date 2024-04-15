@@ -4,39 +4,35 @@ const template = () => `
   <div id="containerDashboard">
     <ul>
       <li>
-        <figure id="navigatePokemon">
+        <figure id="navegatePokemon">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761508/pngwing.com_r0hr9b.png"
+            src="https://res-console.cloudinary.com/dw8ofhou9/thumbnails/v1/image/upload/v1713141345/RGFjb180OTk5OTIyX3RxdHAwMQ==/grid_landscape"
             alt="go to page pokemon"
           />
-          <h2>POKEMON</h2>
+          <h2>POKEDEX</h2>
         </figure>
       </li>
       <li>
-        <figure>
+        <figure id="navegateMemory">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761641/pngwing.com_1_iq8zfk.png"
-            alt=" go to wacka topo game"
+            src="https://cdn-icons-png.freepik.com/512/6168/6168842.png"
+            alt=" go to tic tac toe"
           />
-          <h2>WACKA TOPO</h2>
+          <h2>Memory Game</h2>
         </figure>
       </li>
-      <li>
-        <figure>
-          <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761735/6168776_kfna36.png"
-            alt="go to memory game"
-          />
-          <h2>MEMORY GAME</h2>
-        </figure>
-      </li>
+      
     </ul>
   </div>
 `;
 const addEventListeners = () => {
-  const navigatePokemon = document.getElementById("navigatePokemon");
+  const navigatePokemon = document.getElementById("navegatePokemon");
   navigatePokemon.addEventListener("click", () => {
     initControler("Pokemon");
+  });
+  const navigateMemory = document.getElementById("navegateMemory");
+  navigateMemory.addEventListener("click", () => {
+    initControler("Memory");
   });
 };
 

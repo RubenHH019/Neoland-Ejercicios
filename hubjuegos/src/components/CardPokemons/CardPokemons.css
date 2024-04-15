@@ -32,6 +32,12 @@
 figure.grass {
   border: 10px solid #63bb5b;
 }
+.buttonFilter.grass {
+  background-color: #63bb5b;
+  border-color: #2bba1e;
+  border-radius: 30px;
+  font-style: italic;
+}
 
 figure.bug {
   border: 10px solid #8fc12c;
@@ -39,12 +45,23 @@ figure.bug {
 .bug {
   background-color: #8fc12c80;
 }
-
+.buttonFilter.bug {
+  background-color: #8fc12c;
+  border-color: #84c209;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.dark {
   border: 10px solid #5a5366;
 }
 .dark {
   background-color: #5a536687;
+}
+.buttonFilter.dark {
+  background-color: #5a5366;
+  border-color: #44345e;
+  border-radius: 30px;
+  font-style: italic;
 }
 figure.dragon {
   border: 10px solid #0a6dc4;
@@ -52,24 +69,47 @@ figure.dragon {
 .dragon {
   background-color: #0a6dc482;
 }
+.buttonFilter.dragon {
+  background-color: #0a6dc4;
+  border-color: #021627;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.electric {
   border: 10px solid #f3d13b;
 }
 .electric {
   background-color: #f3d13b75;
 }
-
+.buttonFilter.electric {
+  background-color: #f3d13b;
+  border-color: #eac20f;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.fairy {
   border: 10px solid #ec8fe6;
 }
 .fairy {
   background-color: #ec8fe67e;
 }
+.buttonFilter.fairy {
+  background-color: #ec8fe6;
+  border-color: #e640db;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.fighting {
   border: 10px solid #ce4068;
 }
 .fighting {
   background-color: #ce406884;
+}
+.buttonFilter.fighting {
+  background-color: #ce4068;
+  border-color: #d02052;
+  border-radius: 30px;
+  font-style: italic;
 }
 
 figure.fire {
@@ -78,12 +118,23 @@ figure.fire {
 .fire {
   background-color: #ff9b546f;
 }
-
+.buttonFilter.fire {
+  background-color: #ff9b54;
+  border-color: #f56d0c;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.flying {
   border: 10px solid #8fa8dd;
 }
 .flying {
   background-color: #8fa8dd7c;
+}
+.buttonFilter.flying {
+  background-color: #8fa8dd;
+  border-color: #5f81cb;
+  border-radius: 30px;
+  font-style: italic;
 }
 figure.ghost {
   border: 10px solid #5269ac;
@@ -91,12 +142,23 @@ figure.ghost {
 .ghost {
   background-color: #5269ac7e;
 }
-
+.buttonFilter.ghost {
+  background-color: #5269ac;
+  border-color: #25439e;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.ground {
   border: 10px solid #d97746;
 }
 .ground {
   background-color: #d977467c;
+}
+.buttonFilter.ground {
+  background-color: #d97746;
+  border-color: #d0591e;
+  border-radius: 30px;
+  font-style: italic;
 }
 figure.ice {
   border: 10px solid #74cec1;
@@ -104,31 +166,60 @@ figure.ice {
 .ice {
   background-color: #74cec17e;
 }
+.buttonFilter.ice {
+  background-color: #74cec1;
+  border-color: #2bb8a3;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.normal {
   border: 10px solid #9099a1;
 }
 .normal {
   background-color: #9099a17b;
 }
-
+.buttonFilter.normal {
+  background-color: #9099a1;
+  border-color: #54575a;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.poison {
   border: 10px solid #aa6ac8;
 }
 .poison {
   background-color: #aa6ac87a;
 }
-
+.buttonFilter.poison {
+  background-color: #aa6ac8;
+  border-color: #8b2fb5;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.psychic {
   border: 10px solid #f97176;
 }
 .psychic {
   background-color: #f971767e;
 }
+.buttonFilter.psychic {
+  background-color: #f97176;
+  border-color: #c53a3e;
+  border-radius: 30px;
+  font-style: italic;
+}
+
 figure.rock {
   border: 10px solid #c7b78b;
 }
 .rock {
   background-color: #c7b78b78;
+}
+.buttonFilter.rock {
+  background-color: #c7b78b;
+  border-color: #968b6c;
+  border-radius: 30px;
+  font-style: italic;
 }
 
 figure.steel {
@@ -137,9 +228,21 @@ figure.steel {
 .steel {
   background-color: #5a8ea17e;
 }
+.buttonFilter.steel {
+  background-color: #5a8ea1;
+  border-color: #446875;
+  border-radius: 30px;
+  font-style: italic;
+}
 figure.water {
   border: 10px solid #4d91d5;
 }
 .water {
   background-color: #4d91d575;
+}
+.buttonFilter.water {
+  background-color: #4d91d5;
+  border-color: #1a3f64;
+  border-radius: 30px;
+  font-style: italic;
 }

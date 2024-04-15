@@ -76,3 +76,13 @@ console.log(arrayCualquiera[2]);
 console.log(arrayCualquiera[0].length);
 console.log(arrayCualquiera[1].length);
 console.log(arrayCualquiera[2].length);
+
+const nuevoArray = [2, 15, 19, 4];
+
+nuevoArray.sort();
+console.log("Metodo sort", nuevoArray);
+
+const sortRandom = nuevoArray.sort(function () {
+  return Math.random() - 0, 5;
+});
+console.log("🚀 ~ sortRandom ~ sortRandom:", sortRandom);

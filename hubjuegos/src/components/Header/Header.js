@@ -9,7 +9,7 @@ import { initControler } from "../../utils/route";
 
 const template = () => `
   <img
-    src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682679162/header_giqdug.jpg"
+    src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gamers-logo-design-template-be3afbd9f04d8138acb6ef795c8976c7_screen.jpg?ts=1619011391"
     alt="title hub game website (app)"
     class="logo"
   />
@@ -20,12 +20,12 @@ const template = () => `
       id="changeColor"
     />
     <img
-      src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682685633/home_nekvs0.png"
+      src="https://cdn-icons-png.flaticon.com/512/5260/5260498.png"
       alt=" navigate to home app"
       id="buttonDashboard"
     />
     <img
-      src="https://res.cloudinary.com/dq186ej4c/image/upload/v1682679055/logout_arz0gw.png"
+      src="https://i.pinimg.com/564x/b8/c9/9e/b8c99e1eb63169d5a862bbf90b171d28.jpg"
       alt="logout"
       id="buttonLogout"
     />
